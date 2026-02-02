@@ -1,0 +1,16 @@
+models:
+  sentiment_analysis:
+    default_version: "v1"
+    versions:
+      v1:
+        path: "models/sentiment_v1/model.onnx"
+        status: "active"  # active, candidate, archived
+        description: "Baseline Logistic Regression model"
+      v2:
+        path: "models/sentiment_v2/model.onnx"
+        status: "candidate"
+        description: "Improved Random Forest model"
+    rollout_strategy:
+      type: "canary" # canary, shadow, ab_test, pinned
+      canary_percentage: 10
+      target_version: "v2"

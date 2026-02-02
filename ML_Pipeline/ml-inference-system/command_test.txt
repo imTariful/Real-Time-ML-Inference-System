@@ -1,0 +1,21 @@
+ Volume in drive D is New Volume
+ Volume Serial Number is D0FD-9E5F
+
+ Directory of D:\ai_\ML_Pipeline\ml-inference-system
+
+02/02/2026  05:15 PM    <DIR>          .
+01/30/2026  03:33 AM    <DIR>          ..
+01/30/2026  03:17 AM    <DIR>          app
+02/02/2026  05:15 PM                 0 command_test.txt
+01/30/2026  03:28 AM               762 docker-compose.yaml
+01/30/2026  03:19 AM             1,240 Dockerfile
+01/30/2026  03:29 AM    <DIR>          k8s
+01/30/2026  03:20 AM    <DIR>          load_tests
+01/30/2026  03:19 AM    <DIR>          models
+01/30/2026  03:06 AM               526 model_registry.yaml
+01/30/2026  03:28 AM               158 prometheus.yml
+01/30/2026  03:20 AM             2,107 README.md
+01/30/2026  03:31 AM               407 requirements.txt
+01/30/2026  03:31 AM    <DIR>          scripts
+               7 File(s)          5,200 bytes
+               7 Dir(s)  76,078,735,360 bytes free
